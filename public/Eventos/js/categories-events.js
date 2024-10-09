@@ -42,7 +42,7 @@ function createEventCard(event) {
                 <div class="card p-3 h-100 mb-4 d-flex flex-column">
                     <div class="row g-0">
                         <div class="col-8">
-                            <img src="${event.image}" class="img-fluid" alt="event-image">
+                            <img src="${event.image}" class="img-fluid" alt="event-image" >
                         </div>
                         <div class="col-4 d-flex flex-column align-items-center justify-content-between">
                             <div class="text-center">
@@ -66,11 +66,11 @@ function createEventCard(event) {
                         <br>
                         <a href="../html/formularioEditar.html?id=${event.id}">
                         <button class="btn btn-outline-light edit-event-btn">
-                            <img src="../assets/pen-field.png" width="20" height="20">
+                            <img src="../assets/pen-field.png" width="18" height="18">
                         </button>
                         </a>
                         <button class="btn btn-outline-light delete-event-btn">
-                            <img src="../assets/trash.png" width="20" height="20">
+                            <img src="../assets/trash.png" width="18" height="18">
                         </button>
                     </div>
                 </div>

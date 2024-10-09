@@ -168,6 +168,7 @@
         border-radius: 5%;
         width: 90%;
         max-width: 100%;
+        
     }
     .col-md-4 {
         padding: 10px;
@@ -175,7 +176,7 @@
     
     .card {
         min-height: 300px; 
-        width: 100%;
+        min-width: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -184,6 +185,8 @@
         padding: 16px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.4);
         background-color: #fff;
+        max-height: 550px; 
+        overflow-y: auto;
     }
 
     .card:hover { 
@@ -216,7 +219,7 @@
     }
     
     .btn {
-        border:none;
+        border:none important!;
     }
     
     .event-title {
